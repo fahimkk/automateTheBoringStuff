@@ -24,3 +24,10 @@ r = random.randint(1,9)
 fortune = getAnswer(r)
 print(fortune)
 #print(getAnswer(random.randint(1,9)))
+# OR we can also use the below method
+
+message = ['It is certain','It is decidedly so','Yes','Reply hazy try again','Ask again later','Concentrate and ask again',
+          'My reply is no','Outlook not so good','very doubtful']
+
+print(message[random.randint(0,(len(message)-1))])
+
