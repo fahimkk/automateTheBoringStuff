@@ -11,4 +11,4 @@ while True:
         print('Your guess is too low')
     else:
         print ('your guess is too high')
-    noOfAttempt = noOfAttempt + 1
+    noOfAttempt+= 1
