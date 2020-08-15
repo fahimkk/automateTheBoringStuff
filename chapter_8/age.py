@@ -1,5 +1,5 @@
 while True:
-    print('Enter your age: ')
+    print('Enter your Age: ')
     age = input()
     try:
         age = int(age)
